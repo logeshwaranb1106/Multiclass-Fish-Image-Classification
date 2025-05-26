@@ -1,4 +1,4 @@
-# 🐟 Multiclass Fish Image Classification
+# 🐟 Multiclass Fish Image Classifica
 
 A deep learning project focused on classifying fish species using Convolutional Neural Networks (CNNs) and transfer learning, wrapped in a user-friendly Streamlit web application.
 
