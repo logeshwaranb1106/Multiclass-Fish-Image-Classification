@@ -10,7 +10,7 @@ st.set_page_config(page_title="Fish Classifier")
 @st.cache_resource
 def load_model():
     st.write("Loading model...")  # Debugging line
-    return tf.keras.models.load_model(r"C:\Users\loges\Downloads\MobileNet.keras")
+    return tf.keras.models.load_model("MobileNet.keras")
 
 model = load_model()
 
@@ -72,4 +72,5 @@ if uploaded_file is not None:
 
 # Error handling 
 else:
+
     st.write("Please upload a fish image to get a prediction.")
